@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/MOHAMRA/Projects/WeatherApp/bin/Debug/net7.0-ios/iossimulator-x64/WeatherApp.app/libSystem.IO.Compression.Native.dylib

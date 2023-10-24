@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/MOHAMRA/Projects/WeatherApp/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/WeatherApp.app/Contents/MonoBundle/libxamarin-dotnet-debug.dylib

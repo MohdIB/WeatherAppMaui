@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WeatherApp"
+             x:Class="WeatherApp.MainPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <StackLayout Padding="16">
+        <Label Text="Weather Forecast" FontSize="24" HorizontalOptions="CenterAndExpand" Margin="0,10,0,0" />
+        <Label Text="For the next 2 hrs." FontSize="15" HorizontalOptions="CenterAndExpand" Margin="0,10,0,20" />
+
+
+        <Entry x:Name="LatitudeEntry" Placeholder="Latitude" />
+        <Entry x:Name="LongitudeEntry" Placeholder="Longitude" />
+        <Button Text="Get Weather" Clicked="OnGetWeatherClicked" />
+
+    <Label x:Name="SummaryPhraseLabel" FontSize="20" TextColor="Black" />
+    <Label x:Name="MobileLinkLabel" FontSize="20" TextColor="Black" />
+    <Label x:Name="LinkLabel" FontSize="20" TextColor="Black" />
+    <!-- Add more labels as needed for other properties -->
+
+    <StackLayout x:Name="ResponseStackLayout" Margin="0,20,0,0">
+        <!-- Labels for response parameters will be added here dynamically -->
+    </StackLayout>
+    </StackLayout>
+</ContentPage>
+
